@@ -9,11 +9,12 @@
 - Accessible via dynamic route: /rockets/:id
 - Handles loading and error states
 ### Tech Stack
-- *Framework*: Vue 3 + Vite
-- *Language*: TypeScript
-- *State Management*: Pinia
-- *HTTP Requests*: Axios
+- **Framework**: Vue 3 + Vite
+- **Language**: TypeScript
+- **State Management**: Pinia
+- **HTTP Requests**: Axios
 ### Project Structure
+```bash
 src/
 ├─ components/    # Reusable UI components
 ├─ pages/         # Route-based views
@@ -21,6 +22,7 @@ src/
 ├─ stores/        # Pinia state management
 ├─ types/         # TypeScript domain types
 └─ main.ts        # Entry point
+```
 ### Getting Started
 1. Install dependencies:
 ```bash
